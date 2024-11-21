@@ -1,0 +1,209 @@
+Purchase limit set to 5 products.
+Purchase time set to 30 seconds.
+Insert client username (Type 'quit' to quit): rodrigo
+Hi rodrigo
+
+Here is the list of available products today: 
+1. car
+2. bicycle
+3. ball
+4. hat
+5. fridge
+6. pizza
+7. water
+8. milk
+Insert the id of the product to buy. (Type 'exit' to quit)
+1
+[rodrigo] Product: car purchased successfully.
+ 
+Insert the id of the product to buy. (Type 'exit' to quit)
+2
+[rodrigo] Product: bicycle purchased successfully.
+ 
+Insert the id of the product to buy. (Type 'exit' to quit)
+3
+[rodrigo] Product: ball purchased successfully.
+ 
+Insert the id of the product to buy. (Type 'exit' to quit)
+4
+[rodrigo] Product: hat purchased successfully.
+ 
+Insert the id of the product to buy. (Type 'exit' to quit)
+5
+[rodrigo] Product: fridge purchased successfully.
+ 
+Insert the id of the product to buy. (Type 'exit' to quit)
+6
+[rodrigo] You have exceeded the limit of 5 products in 30 seconds.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+1
+[rodrigo] You have exceeded the limit of 5 products in 30 seconds.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+1
+[rodrigo] Product: car purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+2
+[rodrigo] Product: bicycle purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+3
+[rodrigo] You have exceeded the limit of 5 products in 30 seconds.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+4
+[rodrigo] Product: hat purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+5
+[rodrigo] Product: fridge purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+6
+[rodrigo] Product: pizza purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+7
+[rodrigo] You have exceeded the limit of 5 products in 30 seconds.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+1
+Insert the id of the product to buy. (Type 'exit' to quit)
+[rodrigo] You have exceeded the limit of 5 products in 30 seconds.
+
+1
+[rodrigo] Product: car purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+2
+[rodrigo] Product: bicycle purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+3
+Insert the id of the product to buy. (Type 'exit' to quit)
+[rodrigo] You have exceeded the limit of 5 products in 30 seconds.
+
+4
+[rodrigo] Product: hat purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+5
+[rodrigo] Product: fridge purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+6
+[rodrigo] Product: pizza purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+7
+Insert the id of the product to buy. (Type 'exit' to quit)
+[rodrigo] You have exceeded the limit of 5 products in 30 seconds.
+
+1
+[rodrigo] Product: car purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+2
+[rodrigo] Product: bicycle purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+9
+Error. You must insert a valid client id.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+3
+[rodrigo] Product: ball purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+4
+[rodrigo] Product: hat purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+5
+[rodrigo] Product: fridge purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+6
+[rodrigo] You have exceeded the limit of 5 products in 30 seconds.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+exit
+Thank you!
+
+Insert client username (Type 'quit' to quit): ricardo
+Hi ricardo
+
+Here is the list of available products today:
+1. car
+2. bicycle
+3. ball
+4. hat
+5. fridge
+6. pizza
+7. water
+8. milk
+Insert the id of the product to buy. (Type 'exit' to quit)
+1
+[ricardo] Product: car purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+2
+[ricardo] Product: bicycle purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+3
+[ricardo] Product: ball purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+4
+[ricardo] Product: hat purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+5
+[ricardo] Product: fridge purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+6
+[ricardo] You have exceeded the limit of 5 products in 30 seconds.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+1
+[ricardo] You have exceeded the limit of 5 products in 30 seconds.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+1
+[ricardo] You have exceeded the limit of 5 products in 30 seconds.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+1
+[ricardo] Product: car purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+2
+[ricardo] Product: bicycle purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+3
+[ricardo] Product: ball purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+4
+[ricardo] Product: hat purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+5
+[ricardo] Product: fridge purchased successfully.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+6
+[ricardo] You have exceeded the limit of 5 products in 30 seconds.
+
+Insert the id of the product to buy. (Type 'exit' to quit)
+exit
+Thank you!
+
+Insert client username (Type 'quit' to quit): quit
+
+Process finished with exit code 0

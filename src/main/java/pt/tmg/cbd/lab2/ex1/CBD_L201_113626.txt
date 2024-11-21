@@ -1,0 +1,115 @@
+# CBD – Lab201 – Rodrigo Abreu
+
+test> show dbs
+admin            40.00 KiB
+cbd             752.00 KiB
+cdb               8.00 KiB
+config          108.00 KiB
+local            72.00 KiB
+populatePhones    8.34 MiB
+
+cbd> show collections
+atendimentos
+objects
+restaurants
+test
+
+cbd> db.test.insertOne({Nome: "Benfica", Ano:1904, Aguia:"Vitoria", Cor:"Vermelho"})
+{
+  acknowledged: true,
+  insertedId: ObjectId('671a982242a384597d964033')
+}
+
+cbd> db.test.countDocuments()
+1
+
+cbd> db.test.insertOne({Nome: "Gafanha", Ano:1904, Mascote:"Gafas", Cor:"Azul"}) 
+{
+  acknowledged: true,
+  insertedId: ObjectId('671a98cd42a384597d964034')
+}
+
+cbd> db.test.find()
+[
+  {
+    _id: ObjectId('671a982242a384597d964033'),
+    Nome: 'Benfica',
+    Ano: 1904,
+    Aguia: 'Vitoria',
+    Cor: 'Vermelho'
+  },
+  {
+    _id: ObjectId('671a98cd42a384597d964034'),
+    Nome: 'Gafanha',
+    Ano: 1904,
+    Mascote: 'Gafas',
+    Cor: 'Azul'
+  }
+]
+
+cbd> db.test.find().pretty()
+[
+  {
+    _id: ObjectId('671a982242a384597d964033'),
+    Nome: 'Benfica',
+    Ano: 1904,
+    Aguia: 'Vitoria',
+    Cor: 'Vermelho'
+  },
+  {
+    _id: ObjectId('671a98cd42a384597d964034'),
+    Nome: 'Gafanha',
+    Ano: 1904,
+    Mascote: 'Gafas',
+    Cor: 'Azul'
+  }
+]
+
+cbd> db.test.find({Nome:'Gafanha'})
+[
+  {
+    _id: ObjectId('671a98cd42a384597d964034'),
+    Nome: 'Gafanha',
+    Ano: 1904,
+    Mascote: 'Gafas',
+    Cor: 'Azul'
+  }
+]
+
+cbd> db.test.find({Ano:1904})
+[
+  {
+    _id: ObjectId('671a982242a384597d964033'),
+    Nome: 'Benfica',
+    Ano: 1904,
+    Aguia: 'Vitoria',
+    Cor: 'Vermelho'
+  },
+  {
+    _id: ObjectId('671a98cd42a384597d964034'),
+    Nome: 'Gafanha',
+    Ano: 1904,
+    Mascote: 'Gafas',
+    Cor: 'Azul'
+  }
+]
+
+cbd> db.test.deleteMany({Ano:1904})
+{ acknowledged: true, deletedCount: 2 }
+
+cbd> db.test.count()
+0
+
+cbd> db.test.drop()
+true
+
+cbd> show collections
+atendimentos
+objects
+restaurants
+
+cbd> use equipas
+switched to db equipas
+equipas>
+
+

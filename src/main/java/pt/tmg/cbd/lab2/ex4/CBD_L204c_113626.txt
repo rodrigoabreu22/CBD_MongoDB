@@ -1,0 +1,15 @@
+R: A implementação do problema em Redis, devido ao facto de ser uma base de dados do tipo key-value, é bastante mais eficiente, e simples na implementação. A implementação em Mongo é mais complexa e lenta, por ser uma base de dados do tipo document based. 
+Para este problema em específico, penso que o redis era a base de dados mais adequada devido à sua eficiência, isto que é fundamental para garantir a integridade de o utilizador não conseguir exceder o limite de produtos comprados num intervalo de tempo definido. Porém, caso o problema pedisse uma implementação mais complexa, por exemplo, além do pedido, fosse necessário registar os produtos comprados por cada utilizador, penso que a mongo seria mais adequado pois poderiamos registar os produtos num array, contido no document correspondente a esse user, e depois podiamos obter estes dados apenas através do documento, apesar de ficar um pouco aquém na eficiência.
+
+Resultados obtidos na execução do ficheiro Ex4c.java:
+------------- Redis results --------------
+Write operation time: 13 ms
+Read operation time: 1 ms
+Remove operation time: 0 ms
+
+------------- Mongo results --------------
+Write operation time: 48 ms
+Read operation time: 2 ms
+Remove operation time: 3 ms
+
+Analisando os resultados obtidos em operações simples de escrita, leitura e remoção na base de dados, fica evidenciada a melhor eficiência do Redis em todas as operações em comparação com MongoDB, principalmente nas operações de escrita e remoção.
